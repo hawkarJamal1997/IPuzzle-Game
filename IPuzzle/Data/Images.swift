@@ -9,7 +9,7 @@ import Foundation
 
 Struct Images: Decodable {
     
-    let id: Int
+    let id: String
     let author: String
     let width: Int
     let height: Int
